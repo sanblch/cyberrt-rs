@@ -1,0 +1,18 @@
+[package]
+name = "cyberrt-rs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Rust API for [Apollo](https://github.com/ApolloAuto/apollo) project."
+repository = "https://github.com/sanblch/cyberrt-rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cxx = "1.0.66"
+prost = "0.9.0"
+prost-types = "0.9.0"
+
+[build-dependencies]
+cxx-build = "1.0.66"
+prost-build = "0.9.0"
